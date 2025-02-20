@@ -1,5 +1,4 @@
 [versions]
-activityComposeVersion = "1.10.0"
 agp = "8.8.1"
 androidxCoreKtx = "1.15.0"
 kotlin = "2.0.0"
@@ -17,7 +16,6 @@ uiTooling = "1.7.8"
 uiToolingPreview = "1.7.8"
 
 [libraries]
-androidx-activity-compose-v172 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx-v262 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
 androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
@@ -38,6 +36,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
 ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
 ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

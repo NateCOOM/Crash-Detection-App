@@ -58,7 +58,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.core.ktx.v1120)
     implementation(libs.androidx.lifecycle.runtime.ktx.v262)
-    implementation(libs.androidx.activity.compose.v172)
     implementation(libs.ui)
     implementation(libs.androidx.material)
     implementation(libs.ui.tooling.preview)
