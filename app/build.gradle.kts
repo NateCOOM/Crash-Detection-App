@@ -63,26 +63,26 @@ dependencies {
     implementation(libs.ui.tooling.preview)
     debugImplementation(libs.ui.tooling)
 
-    implementation ("androidx.core:core-ktx:1.9.0")
-    implementation ("androidx.appcompat:appcompat:1.6.1")
-    implementation ("com.google.android.material:material:1.9.0")
-    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation ("androidx.activity:activity-compose:1.7.0")
+    implementation (libs.androidx.core.ktx.v190)
+    implementation (libs.androidx.appcompat)
+    implementation (libs.material)
+    implementation (libs.androidx.constraintlayout)
+    implementation (libs.androidx.activity.compose.v170)
 
     // Jetpack Compose dependencies
-    implementation ("androidx.compose.ui:ui:1.4.0")
-    implementation ("androidx.compose.material3:material3:1.0.0")
-    implementation ("androidx.compose.ui:ui-tooling-preview:1.4.0")
-    implementation ("androidx.compose.runtime:runtime-livedata:1.4.0")
-    implementation ("androidx.compose.foundation:foundation:1.4.0")
+    implementation (libs.androidx.ui.v140)
+    implementation (libs.material3)
+    implementation (libs.androidx.ui.tooling.preview.v140)
+    implementation (libs.androidx.runtime.livedata)
+    implementation (libs.androidx.foundation)
 
     // Kotlin dependencies
-    implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.8.0")
+    implementation (libs.kotlin.stdlib)
 
     // Testing dependencies
-    testImplementation ("junit:junit:4.13.2")
-    androidTestImplementation ("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation ("androidx.compose.ui:ui-test-junit4:1.4.0")
-    debugImplementation ("androidx.compose.ui:ui-tooling:1.4.0")
+    testImplementation (libs.junit)
+    androidTestImplementation (libs.androidx.junit.v115)
+    androidTestImplementation (libs.ui.test.junit4)
+    debugImplementation (libs.androidx.ui.tooling.v140)
 }
 
